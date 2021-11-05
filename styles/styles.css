@@ -1,0 +1,244 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 17px;
+    margin: 0;
+    background: #fafafa;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 10px 15px #f0f0f0;
+    background: url('../img/Vector\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 44%;
+}
+.header-wrapper{
+    max-width: 936px;
+    width: 100%;
+    display:flex;
+    color: black;
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+    margin: 0 15px;
+}
+.menu-section{
+    flex-shrink: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2;
+    
+}
+
+.menu-main-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.main-info-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right:17px;
+}
+.main-info-start{
+    font-family: "Roboto", "Arial", sans-serif;
+    border: 1px solid #3d8eda;
+    border-radius: 2px;
+    color: #3d8eda;
+    height: 30px;
+    padding:0 11px;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+}
+.menu-post{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+    flex-wrap:wrap;
+}
+
+.menu-drop{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
+.menu-drop span{
+    display:block;
+    margin-right: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.date-section{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.date-wraper{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-right: 24px;
+    margin-bottom:20px;
+}
+.menu-dropinput{
+    width: 120px;
+    border: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
+    padding-left:8px;
+        
+}
+input::placeholder{
+    color:black;
+    margin-left:8px;         
+}
+.cross-button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    background: #ebebeb;
+    border: 1px solid #cccccc;
+    align-items: center;
+    cursor: pointer;
+    background: url('../img/end.png') no-repeat;
+    background-position-x: 9px;
+    background-position-y: 10px;
+}
+.calendar-button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+    background: #ebebeb;
+    border: 1px solid #cccccc;
+    background: url('../img/calendar.png') no-repeat;
+    background-position-x: 7px;
+    background-position-y: 5px;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../img/Vector\ 1.png'), url('../img/Vector\ 2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 46%, 10%;
+    background-position: -5% -50%, 100% 100%;
+}
+
+.main-content{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 40px;
+}
+.photo-wraper{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+.photo-overlay{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+      
+}
+.dates,
+.like-section,
+.comment-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.upload-date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+    
+ 
+.btn{
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.btn:hover {
+    border: 1px solid black;
+    font-weight: 600;
+    transition: 0.2s;
+    color: black;
+}
+.boxButton{
+    position: relative;
+    left: 400px;
+    margin-top: 15px;
+}
+
+.btn1{
+    cursor: pointer;
+    background: url('../img/btn2.png') no-repeat;
+    padding: 12px;
+    border: 0px white;
+    margin-right: 10px;
+}
+
+@media (max-width: 992px){
+    .main-content {
+        max-width: 800px;
+    }
+    .photo-wraper {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .main-content {
+        max-width: 600px;
+    }
+    .photo-wraper {
+        margin-right: 70px;
+    }
+}
+
+
+
+
+
+
+
